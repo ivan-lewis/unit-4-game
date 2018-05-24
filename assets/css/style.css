@@ -1,0 +1,51 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+ 
+#game-rules{
+    float: left;
+}
+
+#wins-losses{
+    float: right;
+}
+
+#inline-wins h6,
+#inline-wins p{
+    display: inline;
+}
+
+#wins{
+    color: green;
+}
+
+#losses{
+    color: red;
+}
+
+#inline-losses h6,
+#inline-losses p{
+    display: inline;
+}
+
+#inline-target h6,
+#inline-target p{
+    display: inline;
+}
+
+#inline-player h6,
+#inline-player p{
+    display: inline;
+}
+
+#clear-both{
+    clear: both;
+}
+
+img {
+      width: 25%;
+      height: 47%;
+      padding: 4px;
+      float: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
