@@ -15,17 +15,17 @@
     display: inline;
 }
 
+#inline-losses h6,
+#inline-losses p{
+    display: inline;
+}
+
 #wins{
     color: green;
 }
 
 #losses{
     color: red;
-}
-
-#inline-losses h6,
-#inline-losses p{
-    display: inline;
 }
 
 #inline-target h6,

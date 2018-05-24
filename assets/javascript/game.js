@@ -49,28 +49,27 @@ $(document).ready(function () {
 
     // // Add values to crystals and check score
     $("#blue-crystal").on("click", function(){
-        alert("you clicked blue")
-        // playerScore += crystalValues[0];
-        // $("#player-score").text(playerScore);
-        // runScore();
-    };
+        playerScore += crystalValues[0];
+        $("#player-score").text(playerScore);
+        runScore();
+    });
     
-    // $("#clear-crystal").on("click", function () {
-    //     playerScore += crystalValues[1];
-    //     $("#player-score").text(playerScore);
-    //     runScore();
-    // };
+    $("#clear-crystal").on("click", function () {
+        playerScore += crystalValues[1];
+        $("#player-score").text(playerScore);
+        runScore();
+    });
 
-    // $("#purple-crystal").on("click", function () {
-    //     playerScore += crystalValues[2];
-    //     $("#player-score").text(playerScore);
-    //     runScore();
-    // };
+    $("#purple-crystal").on("click", function () {
+        playerScore += crystalValues[2];
+        $("#player-score").text(playerScore);
+        runScore();
+    });
 
-    // $("#titanium-crystal").on("click", function () {
-    //     playerScore += crystalValues[3];
-    //     $("#player-score").text(playerScore);
-    //     runScore();
-    // };
+    $("#titanium-crystal").on("click", function () {
+        playerScore += crystalValues[3];
+        $("#player-score").text(playerScore);
+        runScore();
+    });
 
 })
